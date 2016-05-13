@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Майя календарь Конца света</string>
+    <string name="mayan_doomsday_widget_4x2">Майя календарь 4x2</string>
+    <string name="mayan_doomsday_widget_4x2seconds">Майя календарь 4x2 с секундами</string>
+    <string name="mayan_doomsday_widget_4x2party">Майа календарь 4x2 вечеринка</string>
+    <string name="before">ДО КОНЦА СВЕТА</string>
+    <string name="before_party">До вечеринки</string>
+    <string name="after">ПОСЛЕ КОНЦА СВЕТА</string>
+    <string name="after_party">Вечеринка идет</string>
+    <string name="days">дней</string>
+    <string name="hours">часов</string>
+    <string name="minutes">минут</string>
+    <string name="seconds">секунд</string>
+    
+</resources>

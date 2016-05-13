@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="146dp"
+    android:background="@drawable/widget4x2"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/image_holder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:text="@string/before"
+        android:textColor="#f000"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView1"
+        style="@style/smalsmall_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/title_view"
+        android:layout_below="@id/title_view"
+        android:paddingLeft="3dp"
+        android:text="@string/seconds" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/smalsmall_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_view"
+        android:layout_toLeftOf="@id/textView1"
+        android:paddingLeft="3dp"
+        android:text="@string/minutes" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/smalsmall_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toLeftOf="@+id/textView2"
+        android:paddingLeft="8dp"
+        android:text="@string/hours" />
+
+    <ImageView
+        android:id="@+id/minutes_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/grid" />
+
+    <ImageView
+        android:id="@+id/hours_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/minutes_view"
+        android:layout_toLeftOf="@+id/textView2"
+        android:src="@drawable/grid" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/smalsmall_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_toLeftOf="@+id/textView3"
+        android:text="@string/days" />
+
+    <ImageView
+        android:id="@+id/days_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/hours_view"
+        android:layout_toLeftOf="@+id/textView3"
+        android:src="@drawable/grid" />
+
+    <ImageView
+        android:id="@+id/seconds_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignTop="@+id/minutes_view"
+        android:src="@drawable/grid" />
+
+</RelativeLayout>
